@@ -1,7 +1,28 @@
 aid: timehop
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/timehop.png
 name: Timehop
-description: Timehop is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Timehop is a consumer mobile application that resurfaces a person's past
+  photos, videos, and social media posts as daily "memories," letting people
+  celebrate what they were doing on this day one, five, or more years ago.
+  It aggregates content from a user's camera roll and connected social
+  accounts and presents it back on a nostalgic timeline. Timehop is made by
+  Sincere Corporation, a family of consumer brands that also includes
+  Punchbowl, Lovebird, and Memento. Timehop ships as iOS and Android apps and
+  does not publish a public developer API, developer portal, or API
+  documentation; this profile captures the company's public web presence for
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/timehop/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Consumer
+- Mobile
+- Memories
+- Photos
+- Nostalgia
+- Social
+- iOS
+- Android
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +52,18 @@ maintainers:
 common:
 - type: Website
   url: https://timehop.com/
+- type: Support
+  url: https://help.timehop.com/
+- type: PrivacyPolicy
+  url: https://www.timehop.com/privacy
+- type: TermsOfService
+  url: https://www.timehop.com/terms
+- type: iOSApp
+  url: https://apps.apple.com/us/app/timehop-memories-then-now/id569077959
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.timehop
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
